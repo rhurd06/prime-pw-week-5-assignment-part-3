@@ -28,5 +28,24 @@ let album3 ={
   artist: 'Luke Bryan',
   yearPublished: 2011,
 }
-collection.push(album3)
+collection.push(album3);
+let album4 ={
+  title: 'Crash My Party',
+  artist: 'Luke Bryan',
+  yearPublished: 2013,
+}
+collection.push(album4);
+let album5 ={
+  title: 'Doo-Wops & Hooligans',
+  artist: 'Bruno Mars',
+  yearPublished: 2010,
+}
+collection.push(album5);
 console.log( addToCollection());
+console.log(collection[0]);
+console.log(collection[1]);
+console.log(collection[2]);
+console.log(collection[3]);
+console.log(collection[4]);
+console.log(collection[5]);
+console.log(collection);
